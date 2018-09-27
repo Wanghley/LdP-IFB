@@ -27,8 +27,19 @@ public class JogoVetores {
 		vetor[4]="\nVocê fica no seu apartamento no 14° andar (último andar),\n "
              + "mas escuta barulhos no 7° andar e vai verificar...\n"
              + "Você desce até a metade do prédio, no caminho você "
-             + "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca";
-		Vetor[5]=
+             + "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca ### 7 ### As duas";
+		Vetor[5]="PERDEU-Você não tem capacidade de sobreviver aqui nesse mundo...";
+		Vetor[6]="PERDEU-Você não sabe o que fazer... Não está preparado(a) para o mundo real..."
+		+ "Cresça e quando estiver preparado(a) volte a jogar. ";
+		Vetor[7]="Você não é burro nem nada...\nVocê é muito esperto e optou por levar a arma e a faca juntas..."
+            	 + "Você encontra zumbis à sua frente...O que você faz? ### 8 ### Atirar ### 9 ### Esfaqueiar ### 10 ### Sair";
+		Vetor[8]="PERDEU-Você encontra vários zumbis e não sabe usar sua arma...";
+		Vetor[9]="PERDEU-Você encontra vários zumbis e não consegue matar tantos andarilhos"
+		+ " com uma única faca...";
+		vetor[10]="Os zumbis estranhamente não percebem a sua presença e você consegue"
+		+ " fugir...No fim do corredor há um telefone . Sua decisão é:"
+             	+ "### 12 ### Você liga para o exército."
+		+ "### 11 ### Você desce no térreo e tenta sobreviver por si só.";
 		int tentativas, tt;
 		boolean naoacertou = true;
 
