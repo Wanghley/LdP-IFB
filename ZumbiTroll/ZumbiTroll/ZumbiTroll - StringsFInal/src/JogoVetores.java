@@ -29,6 +29,16 @@ public class JogoVetores {
              + "Você desce até a metade do prédio, no caminho você "
              + "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca";
 		Vetor[5]=
+		
+		
+		vetor[11]="PERDEU-Você encontra vários zumbis mas não possui habilidades para dar conta de "
+		+ "uma horda inteira desses vermes rastejantes...\n"
+		vetor[12]="............................................................................."
+             + "................................................................\n"
+             +"\nAgora você deve sobreviver até a chegada do resgate. \n"
+             + "No caminho da volta você encontra um garoto sendo atacado por zumbis.\nO que você faz:"
+             + " ### 1 ### Salvar ele. ### 2 ### continuar sem ele.";
+		vetor[13]=
 		int tentativas, tt;
 		boolean naoacertou = true;
 
