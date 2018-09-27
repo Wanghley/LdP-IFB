@@ -27,6 +27,7 @@ public class JogoVetores {
 		vetor[4]="\nVocê fica no seu apartamento no 14° andar (último andar),\n "
              + "mas escuta barulhos no 7° andar e vai verificar...\n"
              + "Você desce até a metade do prédio, no caminho você "
+
              + "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca ### 7 ### As duas";
 		Vetor[5]="PERDEU-Você não tem capacidade de sobreviver aqui nesse mundo...";
 		Vetor[6]="PERDEU-Você não sabe o que fazer... Não está preparado(a) para o mundo real..."
@@ -40,6 +41,17 @@ public class JogoVetores {
 		+ " fugir...No fim do corredor há um telefone . Sua decisão é:"
              	+ "### 12 ### Você liga para o exército."
 		+ "### 11 ### Você desce no térreo e tenta sobreviver por si só.";
+
+             + "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca";
+		vetor[11]="PERDEU-Você encontra vários zumbis mas não possui habilidades para dar conta de "
+		+ "uma horda inteira desses vermes rastejantes...\n"
+		vetor[12]="............................................................................."
+             + "................................................................\n"
+             +"\nAgora você deve sobreviver até a chegada do resgate. \n"
+             + "No caminho da volta você encontra um garoto sendo atacado por zumbis.\nO que você faz:"
+             + " ### 1 ### Salvar ele. ### 2 ### continuar sem ele.";
+		vetor[13]=
+
 		int tentativas, tt;
 		boolean naoacertou = true;
 
