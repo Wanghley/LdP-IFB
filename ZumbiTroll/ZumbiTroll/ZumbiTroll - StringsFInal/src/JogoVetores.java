@@ -27,24 +27,21 @@ public class JogoVetores {
 		vetor[4]="\nVocê fica no seu apartamento no 14° andar (último andar),\n "
              + "mas escuta barulhos no 7° andar e vai verificar...\n"
              + "Você desce até a metade do prédio, no caminho você "
-
              + "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca ### 7 ### As duas";
-		Vetor[5]="PERDEU-Você não tem capacidade de sobreviver aqui nesse mundo...";
-		Vetor[6]="PERDEU-Você não sabe o que fazer... Não está preparado(a) para o mundo real..."
+		vetor[5]="PERDEU-Você não tem capacidade de sobreviver aqui nesse mundo...";
+		vetor[6]="PERDEU-Você não sabe o que fazer... Não está preparado(a) para o mundo real..."
 		+ "Cresça e quando estiver preparado(a) volte a jogar. ";
-		Vetor[7]="Você não é burro nem nada...\nVocê é muito esperto e optou por levar a arma e a faca juntas..."
+		vetor[7]="Você não é burro nem nada...\nVocê é muito esperto e optou por levar a arma e a faca juntas..."
             	 + "Você encontra zumbis à sua frente...O que você faz? ### 8 ### Atirar ### 9 ### Esfaqueiar ### 10 ### Sair";
-		Vetor[8]="PERDEU-Você encontra vários zumbis e não sabe usar sua arma...";
-		Vetor[9]="PERDEU-Você encontra vários zumbis e não consegue matar tantos andarilhos"
+		vetor[8]="PERDEU-Você encontra vários zumbis e não sabe usar sua arma...";
+		vetor[9]="PERDEU-Você encontra vários zumbis e não consegue matar tantos andarilhos"
 		+ " com uma única faca...";
 		vetor[10]="Os zumbis estranhamente não percebem a sua presença e você consegue"
 		+ " fugir...No fim do corredor há um telefone . Sua decisão é:"
              	+ "### 11 ### Você liga para o exército."
 		+ "### 12 ### Você desce no térreo e tenta sobreviver por si só.";
-
-             	+ "encontra uma arma(sem balas)\ne uma faca. Qual você leva? ### 5 ### Arma ### 6 ### Faca";
 		vetor[12]="PERDEU-Você encontra vários zumbis mas não possui habilidades para dar conta de "
-		+ "uma horda inteira desses vermes rastejantes...\n"
+		+ "uma horda inteira desses vermes rastejantes...\n";
 		vetor[11]="............................................................................."
              	+ "................................................................\n"
              	+"\nAgora você deve sobreviver até a chegada do resgate. \n"
@@ -67,12 +64,12 @@ public class JogoVetores {
              	+ "e macarrão à molho branco.\n"
              	+ "Qual delas você escolhe?\n"
              	+ "(lembrando que você tem que ser rápido então escolha uma que seja fácil e rápida):"
-             	+ "### 17 ### Arroz e feijão com carne ### 2 ### Macarrão com ovo mexido ### 3 ### Macarrão à molho branco";
+             	+ "### 17 ### Arroz e feijão com carne ### 19 ### Macarrão com ovo mexido ### 18 ### Macarrão à molho branco";
 		vetor[16]="PERDEU-Você encontra comida, todavia não percebe os andarilhos se aproximarem-se de você.\n"
 		+"VOCÊ NÃO ESTÁ PRONTO PARA ESSE JOGO, EVOLUA E VOLTE NOVAMENTE... BOA SORTE GAFANHOTO.";
 		vetor[17]="PERDEU-Você espera muito para terminar a refeição. O resgate aparece e eles vão sem você.\n";
 		vetor[18]="PERDEU-Essa é a única que você não sabe fazer, mas sabe que é possível.\n";
-		vetor[19]=""............................................................................."
+		vetor[19]="............................................................................."
             	 + "................................................................\n"
              	+"Uma boa escolha. Você faz rapidamente e se satisfaz. \n"
 		+ "Você começa a escutar barulhos... Você percebe que é o resgate, um helicóptero.\n"
@@ -135,9 +132,8 @@ public class JogoVetores {
              	+ "Você vai até ela e tenta acalma-la. É uma mulher, e ela esta\n"
              	+ "morrendo de fome, você explica tudo pra ela. Então vocês vão atrás de comida\n"
              	+ "vocês avistam um grupo de zumbi ao redor de comida. O que fazer?\n"
-             	+ "### 37 ### Matar os zumbis. ### 38 ### Esperar o resgate.";
+             	+ "### 38 ### Matar os zumbis. ### 36 ### Esperar o resgate.";
 		vetor[36]="PERDEU-Um zumbi aparece atrás de você e te mata.\n";
-		vetor[37]="PERDEU-Ela te morde e você sangra muito e morre.\n";
 		vetor[38]=".............................................................................................................................................\n" 
              	+"Vocês vão até os zumbis e mata-os.\n"
              	+ "Vocês comem o lanche...\n Você percebe que a moça está com o braço mordido.\n"
@@ -145,7 +141,7 @@ public class JogoVetores {
              	+ "### 39 ### Matá-la. ### 40 ### Arrancar o braço.";
 		vetor[39]="PERDEU-Você está perdendo sua humanidade...\n"
              	+ " Na hora de matá-la você fica muito nervoso e não tem muita coragem\n"
-		+ "e quando você consegue coragem ela já se transformou e te mata.\n";"
+		+ "e quando você consegue coragem ela já se transformou e te mata.\n";
 		vetor[40]=".............................................................................................................................................\n"
              	+"Você consegue arrancar o braço dela mas começa a sangrar muito,\n"
              	+ "então você cobre o ferimento.\n"
@@ -162,7 +158,7 @@ public class JogoVetores {
 		vetor[43]=".............................................................................................................................................\n"
              	+"Você tem forca suficiente para carrega-la.\n"
              	+ "Chegando ao helicóptero, a moça está passando mal. O que fazer?\n"
-             	+ "### 44 ## Dar a ela misericórdia(mercy).### 45 ### Dar a ela um remédio que estava em sua mochila.";
+             	+ "### 44 ### Dar a ela misericórdia(mercy).### 45 ### Dar a ela um remédio que estava em sua mochila.";
 		vetor[44]="PERDEU-Os tripulantes acham que você é louco e te jogam do helicóptero.\n";
 		vetor[45]=".............................................................................................................................................\n" 
              	+"Era somente uma dor de cabeça por causa da altura...\n\n"
@@ -170,7 +166,7 @@ public class JogoVetores {
              	+ "Mas algo estranho acontece...\n\n [Tripulante]: S.O.S. Controle... S.O.S.\n\n"
 		+".............................................................................................................................................\n"
 		+"Digite ### 46 ### para continuar....\n";
-		vetor[46]="Você conseguiu sobreviver à primeira parte do jogo épico ZumbiTroll...\n\n\n"
+		vetor[46]="VENCEU-Você conseguiu sobreviver à primeira parte do jogo épico ZumbiTroll...\n\n\n"
              	+ "Muito bem!\n"
              	+ " Você parece estar preparado para sobreviver por conta própria\n"
              	+ " nesse mundo pós apocalíptico... Você nos surpreendeu...\n"
@@ -243,7 +239,7 @@ public class JogoVetores {
 			System.out.println("Suas tentativas acabaram!");
 			System.out.println("###################################\nVocê perdeu!\n###################################");
 		}else {
-			System.out.println("###################################\n\nVocê ganhou em "+ (tt - tentativas)+" tentativas! Parab�ns!\n\n###################################");
+			System.out.println("###################################\n\nVocê ganhou em "+ (tt - tentativas)+" tentativas! Parabéns!\n\n###################################");
 
 		}
 		//teclado.nextInt();
