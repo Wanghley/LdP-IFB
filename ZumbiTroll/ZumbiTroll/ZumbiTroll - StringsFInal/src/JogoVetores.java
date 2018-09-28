@@ -152,10 +152,41 @@ public class JogoVetores {
              	+ "Você começa a escutar um barulho de helicóptero.\n"
              	+ "É O RESGATE!!!\n"
              	+ " Vocês vão correndo atrás da escada do resgate\n"
-             	+ "você tem que ajuda-la. O que fazer?\n"
-             	+ "        1.Você sobe primeiro e ajuda ela à subir\n"
-             	+ "        2.Deixar ela subir primeiro e ajudar a subir\n"
-+ "        3.Você a carrega no colo.\n";
+             	+ "você tem que ajuda-la. O que fazer? "
+             	+ "### 41 ### Você sobe primeiro e ajuda ela a subir "
+             	+ "### 42 ### Deixar ela subir primeiro e a ajuda a subir. ### 43 ### Você a carrega no colo.";
+		vetor[41]="PERDEU-Como diabos você vai ajudar ela assim???\n"
+		+ "Você tenta ajudar, mas perde o equilíbrio e os dois caem.";
+		vetor[42]="PERDEU-Assim não né!! Acredito que seja mais seu desejo em vê-la subir...\n"
+		+ "Ela perde o equilíbrio e cai em cima de você..\n Os dois morrem...\n";
+		vetor[43]=".............................................................................................................................................\n"
+             	+"Você tem forca suficiente para carrega-la.\n"
+             	+ "Chegando ao helicóptero, a moça está passando mal. O que fazer?\n"
+             	+ "### 44 ## Dar a ela misericórdia(mercy).### 45 ### Dar a ela um remédio que estava em sua mochila.";
+		vetor[44]="PERDEU-Os tripulantes acham que você é louco e te jogam do helicóptero.\n";
+		vetor[45]=".............................................................................................................................................\n" 
+             	+"Era somente uma dor de cabeça por causa da altura...\n\n"
+             	+"Vocês estão indo em direção ao acampamento militar...\n"
+             	+ "Mas algo estranho acontece...\n\n [Tripulante]: S.O.S. Controle... S.O.S.\n\n"
+		+".............................................................................................................................................\n"
+		+"Digite ### 46 ### para continuar....\n";
+		vetor[46]="Você conseguiu sobreviver à primeira parte do jogo épico ZumbiTroll...\n\n\n"
+             	+ "Muito bem!\n"
+             	+ " Você parece estar preparado para sobreviver por conta própria\n"
+             	+ " nesse mundo pós apocalíptico... Você nos surpreendeu...\n"
+             	+ "Pensamos que nunca chegaria aqui! Se você chegou aqui na 1ª tentativa,\n"
+		+ "nossos parabéns e esperamos que esteja preparado para nosso novo mundo....\n"
+		+ ".....................................................................................................................................\n"
+             	+ "Criado por:\n"
+             	+ "         Wanghley Soares Martins (https://www.linkedin.com/in/wanghley)\n"
+             	+ "         Joel Crescêncio\n"
+             	+ "         Felipe Toledo Neves\n"
+             	+ "\n"
+             	+ "Programação e design: Wanghley S. Martins\n"
+             	+ "Revisão ortográfica: Joel Crescêncio e Felipe Toledo\n"
+             	+ "História por: Felipe Toledo e Joel Crescêcio\n"
+             	+ "Jogo disponível em: https://github.com/Wanghley/LdP-IFB/tree/master/ZumbiTroll\n"
+		+ ".......................................................................................................................................\n";
 		int tentativas, tt;
 		boolean naoacertou = true;
 
