@@ -1,0 +1,9 @@
+- Box plots
+    - way of statistically representing the distribution of given data through five main dimensions
+    - Dimensions:
+        1.Minimum: Smallest number in the sorted data;
+        2.First Quartile: 25%, a quarter of the datapoints are less than this value;
+        3.Median: the median of the sorted data;
+        4.Third quartile: 75% of the data points are less than this value
+        5.Maximum: highest number in the database
+        

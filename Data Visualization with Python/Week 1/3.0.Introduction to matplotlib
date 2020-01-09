@@ -1,0 +1,22 @@
+-  History
+    - Created by John Hunter
+        - Neurobiologist
+        - biomedical analysis
+
+- Arqchitecture
+    Scripting Layer (Pyplot)
+        - its the matplot.pyplot part and is lighter than the artist layer
+
+    Artist Layer(Artist)
+        - Know how to put ink on the canvas
+        - Artists
+            - primitive: Line2D, Rectangles
+            - composite: Axes, Figures
+
+    Backend Layer (FigureCanvas, Renderer, Event)
+        - Figure canvas: define and encompasses the area on witch figure is drawn
+        - Renderer: how to draw a figure
+        - Event: use keyboard and mouse clicks
+
+
+Recommended read: http://www.aosabook.org/en/matplotlib.html
