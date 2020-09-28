@@ -1,0 +1,5 @@
+HTML5
+    - Versão mais nova do HTML
+    - HTML é o padrão utilizado para a criação de páginas WEB
+    - No HTML5 foram introduzidos novos elementos que proporcionam suporte a maior interatividade com o usuário
+    

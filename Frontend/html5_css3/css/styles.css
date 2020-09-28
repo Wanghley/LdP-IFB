@@ -1,0 +1,28 @@
+body{
+    background: hsl(360, 50%, 80%); /*Hue(0-360,0-100%,0-100%), Saturation and Light*/
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+header{
+    margin-top: 70px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+h1{
+    color: rgb(129, 2, 2);
+    font-family: fantasy
+}
+
+h2{
+    font-family: fantasy;
+}
+
+p{
+    font-size: 18px;
+}
+
