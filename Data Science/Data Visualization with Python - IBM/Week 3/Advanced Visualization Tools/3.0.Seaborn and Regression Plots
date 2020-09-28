@@ -1,0 +1,5 @@
+- Seaborn
+    - New library of visualization to use in Python
+    - Based in matplotlib
+    - Attractive plots
+    - 5 times less than Matplotlib velocity
