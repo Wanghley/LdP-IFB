@@ -1,4 +1,0 @@
-- Folium is a powerful Python library that helps you create several types of Leaflet maps
-- Visualize geospational data visualization
-- It enables both the biding of data to a map for choropleth visualizations as well as passing visualizations as markers on the map.
-- The library has many styles of maps plotations as OpenStreetMaps, MapBox and Stamen and supports customs tilesets with MapBox API keys

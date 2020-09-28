@@ -1,5 +1,0 @@
-- Word Clouds
-    - It is a depiction of hte frequency of different words in some textual data
-    - Proportional to how many a word appear. How much apper, more representative is the word in the cloud
-    - Matplotlib hasn't a built lib for it.
-    
